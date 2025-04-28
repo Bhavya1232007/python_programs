@@ -1,0 +1,14 @@
+#  String Formatting
+name="Bhavya"
+age=18
+print("My name is %s and I am %d " % (name,age))
+
+print("My name is {} and I am {} " .format(name,age))
+
+print("My name is {0} and I am {1} " .format(name,age))        
+
+print("My name is {0} and I am {1:f} " .format(name,age))      
+
+print("My name is {n} and I am {a} " .format(n=name,a=age))
+
+print(f"My name is {name} and I am {age}")           
